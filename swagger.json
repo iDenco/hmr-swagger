@@ -15,7 +15,7 @@
 		}
 	},
 	"paths": {
-		"/ping": {
+		"/api/ping": {
 			"get": {
 				"description": "Returns a sanity check",
 				"produces": ["application/json"],
@@ -26,7 +26,7 @@
 				}
 			}
 		},
-		"/users": {
+		"/api/users": {
 			"get": {
 				"description": "Returns all users",
 				"produces": ["application/json"],
@@ -62,7 +62,7 @@
 				}
 			}
 		},
-		"/users/{id}": {
+		"/api/users/{id}": {
 			"get": {
 				"description": "Returns a user based on a single user ID",
 				"produces": ["application/json"],
@@ -83,7 +83,7 @@
 				}
 			}
 		},
-		"/auth/register": {
+		"/api/auth/register": {
 			"post": {
 				"description": "Creates a new user",
 				"produces": ["application/json"],
@@ -105,7 +105,7 @@
 				}
 			}
 		},
-		"/auth/login": {
+		"/api/auth/login": {
 			"post": {
 				"description": "Logs a user in",
 				"produces": ["application/json"],
@@ -127,7 +127,7 @@
 				}
 			}
 		},
-		"/auth/status": {
+		"/api/auth/status": {
 			"get": {
 				"description": "Returns the logged in user's status",
 				"produces": ["application/json"],
@@ -143,7 +143,7 @@
 				}
 			}
 		},
-		"/auth/logout": {
+		"/api/auth/logout": {
 			"get": {
 				"description": "Logs a user out",
 				"produces": ["application/json"],
