@@ -1,0 +1,12 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"version": "0.0.1",
+		"title": "Payroll Service",
+		"description": "Swagger spec for documenting the users service"
+	},
+	"host": "http://192.168.99.100/",
+	"schemes": ["http"],
+	"paths": {},
+	"definitions": {}
+}
